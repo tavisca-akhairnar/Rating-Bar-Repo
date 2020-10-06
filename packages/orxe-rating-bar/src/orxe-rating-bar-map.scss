@@ -1,0 +1,25 @@
+:host {
+    --rating-bar-donut-track-stroke-color: var(--separator-01);
+    --rating-bar-donut-margin: 0px var(--spacing-03);
+    --rating-bar-excellent: var(--rating-excellent);
+    --rating-bar-great: var(--rating-great);
+    --rating-bar-average: var(--rating-average);
+    --rating-bar-poor: var(--rating-poor);
+    --rating-bar-bad: var(--rating-bad);
+    --rating-bar-donut-width: 40px;
+    --rating-bar-donut-height: 40px;
+    --rating-bar-donut-rating-info-font-size: 1.4rem;
+
+    --rating-bar-font-family: var(--global-font-family);
+    --rating-bar-font-weight: var(--font-weight-semi-bold);
+    --rating-bar-label-color: var(--primary-text);
+}
+
+$rating-bar-donut-indicator-stroke-area: 113.04;
+$rating-bar-donut-width: 40px;
+
+$rating-bar-linear-width: 100%;
+$rating-bar-linear-track-width: 100%;
+$rating-bar-linear-border-radius: 25px;
+$rating-bar-linear-track__indicator-border-radius: 25px;
+$rating-bar-linear-track__indicator-height: 8px;
